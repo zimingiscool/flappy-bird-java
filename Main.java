@@ -6,7 +6,7 @@ import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 //import java.awt.Color;
-//import java.awt.Component;
+import java.awt.Component;
 
 
 class Main 
@@ -44,7 +44,7 @@ public static void main(String[] args)
       if(isOn)
       {
         isOn = false;
-        ImageIcon.setIcon(flappyBirdIcon);
+        imageLabel.setIcon(flappyBirdIcon);
       } else 
       {
         isOn = true;
