@@ -13,6 +13,6 @@ public class App{
 	}
 	
 	public static void takeTest(Question [] questions) {
-		
+		int score = 0
 	}
 }
